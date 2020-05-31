@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+
+namespace AppLifecycleTutorial
+{
+    // Learn more about making custom code visible in the Xamarin.Forms previewer
+    // by visiting https://aka.ms/xamarinforms-previewer
+    [DesignTimeVisible(false)]
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+        }
+
+        /// <summary>
+        /// MainPage表示
+        /// </summary>
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            //entry.Text = (Application.Current as App).DisplayText;
+            App myApp = Application.Current as App;
+            entry.Text = myApp.DisplayText;
+        }
+
+        void OnEntryCompleted(object sender, EventArgs e)
+        {
+            (Application.Current as App).DisplayText = entry.Text;
+        }
+    }
+}
