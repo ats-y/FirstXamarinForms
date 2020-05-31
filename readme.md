@@ -5,6 +5,8 @@
 はじめてXamarin.Formsを触る人向けです。
 とにかく動くアプリを作るという目的で、MicrosoftのXamarinページにあるチュートリアルを実施します。
 
+
+
 ## Xamarin.Formsチュートリアル
 
 
@@ -43,6 +45,14 @@ Xamlを見た時にどのようにレイアウトされるのかがわかるよ�
 
 ### ListView
 https://docs.microsoft.com/ja-jp/xamarin/get-started/tutorials/listview
+
+新しいクラスを追加します。
+
+追加前・追加後の差分を見てください。<br>
+
+Bindingが登場します。
+
+ItemSelectedイベントとItemTappedイベントのイベントハンドラでブレークポイントを貼ってデバッグ実行し、引数の中身をのぞいてみてください。
 
 ### ポップアップ
 https://docs.microsoft.com/ja-jp/xamarin/get-started/tutorials/pop-ups
