@@ -26,6 +26,13 @@ https://docs.microsoft.com/ja-jp/xamarin/get-started/tutorials/button
 
 イベントが登場します。
 
+書き込む行が以下のうちのどれなのか意識して描いてください。
+* クラスの定義
+* メンバ変数（別名：属性、クラスメンバ変数）の定義
+* メソッド（別名：操作、クラスメソッド、関数）の定義
+* ローカル変数の定義
+* 処理
+
 ### Entry
 https://docs.microsoft.com/ja-jp/xamarin/get-started/tutorials/entry
 
@@ -60,6 +67,11 @@ awaitを付けないとどうなるか試してみてください。
 
 ### アプリのライフサイクル
 https://docs.microsoft.com/ja-jp/xamarin/get-started/tutorials/app-lifecycle
+
+constが登場します。
+
+設定要素名と定数名が同じなので注意。
+
 
 ### Web サービス
 https://docs.microsoft.com/ja-jp/xamarin/get-started/tutorials/web-service
