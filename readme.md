@@ -55,7 +55,8 @@ ItemSelectedイベントとItemTappedイベントのイベントハンドラで�
 ### ポップアップ
 https://docs.microsoft.com/ja-jp/xamarin/get-started/tutorials/pop-ups
 
-awaitが登場します。
+awaitが登場します。</br>
+awaitを付けないとどうなるか試してみてください。
 
 ### アプリのライフサイクル
 https://docs.microsoft.com/ja-jp/xamarin/get-started/tutorials/app-lifecycle
