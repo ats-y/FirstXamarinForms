@@ -3,12 +3,26 @@
 ## はじめに
 
 はじめてXamarin.Formsを触る人向けです。
+
+プログラム基礎研修を修了した新入社員を対象としています。
+
 とにかく動くアプリを作るという目的で、MicrosoftのXamarinページにあるチュートリアルを実施します。
 
+各チュートリアルにサンプルコードと説明記載されているので、
+サンプルコードを入力して、動かして、解説を読んで、入力したXMLやプログラムがどんな役割をしているのか理解してください。
+サンプルコードのコピペは禁止です。
+XMLやプログラムはどのように定義するのか、手入力しながら体験・理解してください。
 
+サンプルには[アクセシビリティ識別子](https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/keywords/accessibility-levels)がついていません。業務プログラムはアクセシビリティ識別子を必ずつけることが慣例となっているので、どの識別子が適切か考えてつけてください。
+
+1. サンプルを写経する
+1. 動かしてみる
+1. 動いたらコミット
+1. 入力したXML・プログラムと説明を見返して、XML・プログラムのどの部分がどのような役割なのか理解する。
+1. 理解できたら、その理解を確かめるために少し改造してみる。
+1. コミット。
 
 ## Xamarin.Formsチュートリアル
-
 
 https://docs.microsoft.com/ja-jp/xamarin/get-started/tutorials/
 
@@ -72,6 +86,22 @@ constが登場します。
 
 設定要素名と定数名が同じなので注意。
 
-
 ### Web サービス
 https://docs.microsoft.com/ja-jp/xamarin/get-started/tutorials/web-service
+
+「APIキーにサインアップ」は行わず、教育担当に訊いてください。
+
+Nugetが登場します。
+
+名前空間が登場します。
+
+Taskが登場します。
+
+Try/Catchが登場します。
+例外を起こしてみよう。
+例外の型、メッセージ、スタックトレース、InnerExceptionを見てみよう。
+何に利用できるか考えてみよう。
+
+JSON
+
+Binding
